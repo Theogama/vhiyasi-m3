@@ -1,5 +1,4 @@
 
-body{margin-top:20px;}
 
 .align-center {
     text-align: center;
@@ -48,7 +47,7 @@ img {
 
 .overlay {
     height: auto;
-    width: 100vw;
+    width: 100%;
     background: black;
     overflow: hidden;
 }
