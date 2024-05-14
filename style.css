@@ -2,6 +2,23 @@
   animation: skeleton-loading 1s linear infinite alternate;
 }
 
+.skeleton-text {
+  background-color: #f0f0f0; /* Background color of skeleton */
+  border-radius: 4px; /* Adjust as needed */
+}
+
+.skeleton-text-line {
+  height: 16px; /* Adjust line height as needed */
+  width: 80%; /* Adjust width as needed */
+  margin: 8px 0; /* Adjust spacing between lines as needed */
+  background-color: #e0e0e0; /* Background color of skeleton lines */
+}
+
+.skeleton-text:last-child {
+  width: 60%;
+  margin-bottom: 0 ;
+}
+
 @keyframes skeleton-loading {
   0% {
     background-color: hsl(200, 20%, 70%);
